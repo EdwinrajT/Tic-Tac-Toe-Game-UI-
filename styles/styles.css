@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    font-family: 'Open Sans';
+    color: rgb(51, 37, 37);
+    background-color: rgb(234, 229, 241);
+}
+
+#main-header{
+    background-color: rgb(130, 45, 241);
+    text-align: center;
+    padding: 1rem 5%;
+    color: cornsilk;
+}
+
+.btn{
+    font: inherit;
+    padding: 0.5rem 1.5rem;
+    background-color: rgb(118, 41, 243);
+    border: 1px solid rgb(9, 27, 194);
+    border-radius: 4px;
+    cursor: pointer;
+    color: white;
+}
+
+.btn-alt{
+   background-color:transparent;
+   border-color: transparent;
+   color: rgb(118, 41, 243) ;
+  
+} 
+
+.btn:hover{
+background-color:rgb(77, 33, 224) ;
+border-color: transparent;
+/* border-color:rgb(77, 33, 224) ; */
+}
+
+.btn-alt:hover{
+    background-color:rgb(220, 200, 247) ;
+}
